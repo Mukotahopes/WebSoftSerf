@@ -1,0 +1,47 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    padding:13px;
+    
+}
+h1 {
+    text-align: center;
+    
+    font-size: 37px;
+}
+
+h2{
+    text-align: center;
+   
+    padding-top: 10px;
+    font-size: 25px;
+}
+p,.text-in-code{
+    color: #2b2b2b;
+}
+strong
+{
+    color: black;
+}
+.html_el{
+    color: rgb(153, 18, 18);
+}
+.big-html
+{
+    border-bottom-width: 1px;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    
+}
+.tag
+{
+    background-color: rgb(223, 223, 223);
+    color:rgb(73, 165, 168);
+
+}
+pre{
+    background-color: rgb(233, 233, 233);
+}
+footer
+{
+    font-size: 15px;
+}
