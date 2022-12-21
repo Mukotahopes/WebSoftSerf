@@ -1,0 +1,82 @@
+body{
+   background-color: #646464;
+}
+.container div.logo{
+    display: flex;
+    width: 200px;
+    height: 45px;
+}
+.container div.logo div.logo-name p{
+ margin: auto;
+}
+div.logo div.logo-name p.name{
+    font-size:23px;
+    color: white;
+}
+div.logo div.logo-name p{
+    font-size:18px;
+    color: rgb(170, 170, 170);
+}
+div.logo div.logo-name {
+margin-left: 6px;
+}
+.container .main-nav{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+
+}
+.container{
+    margin: auto;
+    max-width: 70%;
+}
+img.logo{
+    filter: invert(1);
+}
+.container div a{
+    padding: 10%;
+}
+li {
+    list-style-type: none; 
+    font-size: 15px;
+    color: rgb(170, 170, 170);
+    font-weight: lighter;
+    align-content: center;
+  }
+  li:before {
+    content: "- "; 
+  }
+h1{
+    font-size: 25px;
+    color: rgb(170, 170, 170);
+    font-weight: lighter;
+    align-content: center;
+}
+.container h1{
+    text-align: center;
+    
+}
+.medium-img{
+    width: 250px;
+    height: 150px;
+}
+.container div.about{
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+}
+h3{
+    margin: 0;
+    color: white;
+}
+.container .about div p{
+    font-size: 15px;
+    color: rgb(170, 170, 170);
+    font-weight: lighter;
+    align-content: center;
+}
+
